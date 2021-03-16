@@ -64,14 +64,14 @@ nav li {
 
 .accueil-container {
   border: 1px solid #ffffff;
-  width: 50%;
+  width: 48%;
   padding: 18px;
   margin: 90px 0;
 }
 .accueil-container h1 {
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 60px;
+  font-size: 58px;
   margin: 0;
 }
 
