@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+section {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 footer {
   background-color: #000000;
 }
@@ -25,8 +30,16 @@ h1, h2, button {
   font-weight: 300;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 #about {
   display: flex;
+}
+#about article {
+  border: 2px solid black;
+  height: 200px;
 }
 
 footer {
