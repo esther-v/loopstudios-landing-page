@@ -2,3 +2,14 @@ $white: #ffffff;
 $black: #000000;
 $dark-grey: #8c8c8c;
 $vey-dark-grey: #808080;
+
+footer {
+    background-color: $black;
+   
+    .link-footer{
+        color: $white;
+    }
+    p{
+        color: $vey-dark-grey;
+    }
+}
