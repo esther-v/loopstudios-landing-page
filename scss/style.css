@@ -1,3 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #000000;
+}
+footer .link-footer {
+  color: #ffffff;
+}
+footer p {
+  color: #808080;
+}
+
 body {
   font-family: "Alata", sans-serif;
   font-weight: 400;
@@ -51,6 +67,10 @@ nav li {
   margin: 0;
 }
 
+#about {
+  display: flex;
+}
+
 .button-title h2, .button-title button {
   text-transform: uppercase;
 }
@@ -102,6 +122,31 @@ nav li {
 }
 .galery .b8 {
   background-image: url("../images/desktop/image-fisheye.jpg");
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+footer a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+footer .footer-links {
+  display: flex;
+}
+
+.icons-social-media {
+  margin-top: 20px;
+}
+
+.icons-social-media img {
+  padding-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
