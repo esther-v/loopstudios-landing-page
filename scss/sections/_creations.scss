@@ -1,0 +1,80 @@
+.button-title {
+    @extend %flex;
+
+    h2, button {
+        text-transform: uppercase;
+    }
+
+    button {
+        font-family: $alata-font;
+        font-size: 10px;
+        padding: 4px;
+        background-color: $white;
+        border-radius: 0;
+    }
+}
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+        button {
+            color: $white;
+            padding-bottom: 20px;
+            font-size: 25px;
+        }
+
+        .bton-galery {
+            width: 200px;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .b1 {
+            background-image: url('../images/desktop/image-deep-earth.jpg');
+            
+        }
+        
+        .b2 {
+            background-image: url('../images/desktop/image-night-arcade.jpg');
+            
+        }
+        
+        .b3 {
+            background-image: url('../images/desktop/image-soccer-team.jpg');
+           
+        }
+        
+        .b4 {
+            background-image: url('../images/desktop/image-grid.jpg');
+        }
+        
+        .b5 {
+            background-image: url('../images/desktop/image-from-above.jpg');
+          
+        }
+        
+        .b6 {
+            background-image: url('../images/desktop/image-pocket-borealis.jpg');
+           
+        }
+        
+        .b7 {
+            background-image: url('../images/desktop/image-curiosity.jpg');
+            
+        }
+        
+        .b8 {
+            background-image: url('../images/desktop/image-fisheye.jpg');
+           
+        }
+
+}
+
+
+
+
+

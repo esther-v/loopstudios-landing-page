@@ -34,12 +34,119 @@ h2 {
   font-size: 30px;
 }
 
+#accueil {
+  background: url("../images/desktop/image-hero.jpg") top;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.button-title, header, nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header, nav ul {
+  gap: 20px;
+}
+
+.logo {
+  height: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav li {
+  list-style: none;
+}
+
+.accueil-container {
+  border: 1px solid #ffffff;
+  width: 40%;
+  padding: 18px;
+  margin: 80px 0;
+}
+.accueil-container h1 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 50px;
+  margin: 0;
+}
+
 #about {
   display: flex;
+  position: relative;
 }
 #about article {
-  border: 2px solid black;
-  height: 200px;
+  background-color: #ffffff;
+  width: 45%;
+  height: 320px;
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  z-index: 1;
+  padding: 67px;
+}
+#about article h2 {
+  margin-bottom: 20px;
+}
+#about img {
+  width: 60%;
+}
+
+.button-title h2, .button-title button {
+  text-transform: uppercase;
+}
+.button-title button {
+  font-family: "Alata", sans-serif;
+  font-size: 10px;
+  padding: 4px;
+  background-color: #ffffff;
+  border-radius: 0;
+}
+
+.galery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.galery button {
+  color: #ffffff;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.galery .bton-galery {
+  width: 200px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.galery .b1 {
+  background-image: url("../images/desktop/image-deep-earth.jpg");
+}
+.galery .b2 {
+  background-image: url("../images/desktop/image-night-arcade.jpg");
+}
+.galery .b3 {
+  background-image: url("../images/desktop/image-soccer-team.jpg");
+}
+.galery .b4 {
+  background-image: url("../images/desktop/image-grid.jpg");
+}
+.galery .b5 {
+  background-image: url("../images/desktop/image-from-above.jpg");
+}
+.galery .b6 {
+  background-image: url("../images/desktop/image-pocket-borealis.jpg");
+}
+.galery .b7 {
+  background-image: url("../images/desktop/image-curiosity.jpg");
+}
+.galery .b8 {
+  background-image: url("../images/desktop/image-fisheye.jpg");
 }
 
 footer {
@@ -65,6 +172,12 @@ footer .footer-links {
 
 .icons-social-media img {
   padding-right: 10px;
+}
+
+section {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
