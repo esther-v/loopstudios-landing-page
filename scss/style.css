@@ -35,9 +35,9 @@ h2 {
 }
 
 #accueil {
-  background: url("../images/desktop/image-hero.jpg") top;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/desktop/image-hero.jpg") top;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .button-title, header, nav ul {
@@ -64,14 +64,14 @@ nav li {
 
 .accueil-container {
   border: 1px solid #ffffff;
-  width: 40%;
+  width: 48%;
   padding: 18px;
-  margin: 80px 0;
+  margin: 90px 0;
 }
 .accueil-container h1 {
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 58px;
   margin: 0;
 }
 
@@ -96,6 +96,9 @@ nav li {
   width: 60%;
 }
 
+.button-title {
+  justify-content: space-between;
+}
 .button-title h2, .button-title button {
   text-transform: uppercase;
 }
@@ -110,43 +113,50 @@ nav li {
 .galery {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 40px;
 }
 .galery button {
   color: #ffffff;
   padding-bottom: 20px;
   font-size: 25px;
+  border: none;
+  text-align: left;
+}
+.galery button:hover {
+  background: #ffffff;
+  color: #000000;
 }
 .galery .bton-galery {
-  width: 200px;
-  height: 350px;
+  width: 210px;
+  height: 380px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  background: no-repeat center/cover;
 }
 .galery .b1 {
-  background-image: url("../images/desktop/image-deep-earth.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../images/desktop/image-deep-earth.jpg");
 }
 .galery .b2 {
-  background-image: url("../images/desktop/image-night-arcade.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../images/desktop/image-night-arcade.jpg");
 }
 .galery .b3 {
-  background-image: url("../images/desktop/image-soccer-team.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../images/desktop/image-soccer-team.jpg");
 }
 .galery .b4 {
-  background-image: url("../images/desktop/image-grid.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../images/desktop/image-grid.jpg");
 }
 .galery .b5 {
-  background-image: url("../images/desktop/image-from-above.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../images/desktop/image-from-above.jpg");
 }
 .galery .b6 {
-  background-image: url("../images/desktop/image-pocket-borealis.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../images/desktop/image-pocket-borealis.jpg");
 }
 .galery .b7 {
-  background-image: url("../images/desktop/image-curiosity.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../images/desktop/image-curiosity.jpg");
 }
 .galery .b8 {
-  background-image: url("../images/desktop/image-fisheye.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../images/desktop/image-fisheye.jpg");
 }
 
 footer {

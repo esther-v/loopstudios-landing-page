@@ -1,7 +1,7 @@
 #accueil {
-    background: url("../images/desktop/image-hero.jpg") top;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/desktop/image-hero.jpg") top;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 
 %flex {
@@ -32,14 +32,14 @@ nav {
 
 .accueil-container {
     border: 1px solid $white;
-    width: 40%;
+    width: 48%;
     padding: 18px;
-    margin: 80px 0;
+    margin: 90px 0;
 
     h1 {
         text-transform: uppercase;
         color: $white;
-        font-size: 50px;
+        font-size: 58px;
         margin: 0;
     }  
 }
