@@ -1,0 +1,46 @@
+#accueil {
+    background: url("../images/desktop/image-hero.jpg") top;
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+%flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+header, nav ul {
+    @extend %flex; 
+    gap: 20px;   
+}
+
+.logo {
+    height: 25px;
+}
+
+nav {
+    a{
+        text-decoration: none;
+        color:$white;  
+    }
+
+    li {
+        list-style: none;
+    }
+}
+
+.accueil-container {
+    border: 1px solid $white;
+    width: 40%;
+    padding: 18px;
+    margin: 40px 0;
+
+    h1 {
+        text-transform: uppercase;
+        color: $white;
+        font-size: 42px;
+        margin: 0;
+    }  
+}
