@@ -1,0 +1,18 @@
+//VARIABLES
+$alata-font :'Alata', sans-serif;
+$alata-weight: 400;
+$josefin-font:'Josefin Sans', sans-serif;
+$josefin-weight:300;
+$body-fontsize: 15px;
+
+//SCSS
+body {
+    font-family: $alata-font;
+    font-weight: $alata-weight;
+    font-size: $body-fontsize;
+}
+
+h1, h2, button{
+    font-family: $josefin-font;
+    font-weight: $josefin-weight;
+}
