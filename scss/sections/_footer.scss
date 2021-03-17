@@ -13,6 +13,7 @@ footer{
     }
     .footer-links{
         display: flex;
+        
     }
 }
 
@@ -23,3 +24,26 @@ footer{
 .icons-social-media img{
    padding-right: 10px;
 }
+//MEDIA QUERIES FOOTER
+
+@media (max-width: 900px) {
+    footer{
+        flex-direction: column;
+
+    }
+    .footer-links{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    a.link-footer{
+        margin-bottom: 20px;
+        
+    }
+    .icons-social-media{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+  }
