@@ -51,15 +51,15 @@ header, nav ul {
   gap: 20px;
 }
 
-.logo {
-  height: 25px;
+header {
+  height: 3vw;
+  width: 100%;
 }
-
-nav a {
+header nav a {
   text-decoration: none;
   color: #ffffff;
 }
-nav li {
+header nav li {
   list-style: none;
 }
 
@@ -74,9 +74,9 @@ nav li {
   text-transform: uppercase;
   line-height: 115%;
   color: #ffffff;
-  font-size: 58px;
-  padding: 25px;
-  margin-top: 25px;
+  font-size: 5vw;
+  padding: 30px 60px 30px 30px;
+  margin-top: 10%;
 }
 
 #about {
@@ -117,7 +117,7 @@ nav li {
 
 .galery {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 40px;
 }
@@ -190,8 +190,8 @@ footer .footer-links {
 }
 
 section {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-bottom: 80px;
 }
 
