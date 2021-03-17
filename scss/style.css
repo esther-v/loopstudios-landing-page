@@ -80,28 +80,26 @@ header nav li {
 }
 
 #about {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 #about article {
   background-color: #ffffff;
-  min-width: 45%;
-  height: 320px;
-  position: absolute;
-  top: 200px;
-  left: 600px;
-  z-index: 1;
   padding: 67px;
 }
 #about article h2 {
   margin-bottom: 20px;
 }
-#about img {
-  width: 60%;
-}
-
-@media screen and (max-width: 1230px) {
+@media screen and (min-width: 1042px) {
   #about {
-    display: flex;
+    flex-direction: row;
+  }
+
+  article {
+    margin-left: -300px;
+    margin-top: 240px;
   }
 }
 .button-title {
