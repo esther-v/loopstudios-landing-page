@@ -2,6 +2,8 @@ $white: #ffffff;
 $black: #000000;
 $dark-grey: #8c8c8c;
 $vey-dark-grey: #808080;
+$degrade: linear-gradient(rgba(0, 0, 0, -3.6), rgba(0, 0, 0, 0.5));
+$degrade-accueil: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 
 footer {
     background-color: $black;

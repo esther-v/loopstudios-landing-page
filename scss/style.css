@@ -35,9 +35,10 @@ h2 {
 }
 
 #accueil {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/desktop/image-hero.jpg") top;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/desktop/image-hero.jpg") no-repeat center/cover;
   padding-top: 50px;
   padding-bottom: 60px;
+  height: 100vh;
 }
 
 .button-title, header, nav ul {
@@ -63,16 +64,19 @@ nav li {
 }
 
 .accueil-container {
-  border: 1px solid #ffffff;
-  width: 48%;
-  padding: 18px;
-  margin: 90px 0;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .accueil-container h1 {
+  border: 1px solid #ffffff;
   text-transform: uppercase;
+  line-height: 115%;
   color: #ffffff;
   font-size: 58px;
-  margin: 0;
+  padding: 25px;
+  margin-top: 25px;
 }
 
 #about {
@@ -98,6 +102,7 @@ nav li {
 
 .button-title {
   justify-content: space-between;
+  margin-bottom: 35px;
 }
 .button-title h2, .button-title button {
   text-transform: uppercase;
@@ -112,6 +117,7 @@ nav li {
 
 .galery {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
 }
@@ -121,18 +127,17 @@ nav li {
   font-size: 25px;
   border: none;
   text-align: left;
-}
-.galery button:hover {
-  background: #ffffff;
-  color: #000000;
-}
-.galery .bton-galery {
-  width: 210px;
+  width: 20%;
   height: 380px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   background: no-repeat center/cover;
+  transition: 0.4s;
+}
+.galery button:hover {
+  font-weight: bold;
+  transform: scale(0.97);
 }
 .galery .b1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../images/desktop/image-deep-earth.jpg");
@@ -187,7 +192,7 @@ footer .footer-links {
 section {
   padding-left: 80px;
   padding-right: 80px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */
