@@ -19,11 +19,15 @@ header, nav ul {
 header {
     height: 3vw;
     width: 100%;
-    
+
     nav {
         a{
             text-decoration: none;
             color:$white;  
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     
         li {

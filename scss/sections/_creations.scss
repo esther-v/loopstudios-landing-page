@@ -10,9 +10,15 @@
     button {
         font-family: $alata-font;
         font-size: 10px;
-        padding: 4px;
+        padding: 5px 24px;
+        letter-spacing: 0.3em;
         background-color: $white;
         border-radius: 0;
+
+        &:hover {
+            background: $black;
+            color: $white;
+        }
     }
 }
 
@@ -40,11 +46,13 @@
             &:hover {
                 font-weight: bold;  
                 transform: scale(0.97);
+    
             }
         }
 
         .b1 {
             background-image: $degrade, url('../images/desktop/image-deep-earth.jpg');
+
         }
         
         .b2 {
