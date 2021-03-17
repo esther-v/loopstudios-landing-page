@@ -10,3 +10,10 @@ section {
     margin-bottom: 80px;
     
 }
+
+@media screen and (max-width: 800px) {
+    section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
