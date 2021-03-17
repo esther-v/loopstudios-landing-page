@@ -106,9 +106,14 @@ header nav li {
     transition: 0.5s;
   }
 
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   nav ul {
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
   nav a {
     margin-left: 0;

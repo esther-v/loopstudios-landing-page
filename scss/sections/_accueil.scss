@@ -79,9 +79,12 @@ header {
     }
 
     nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         ul {
             flex-direction: column;
-            justify-content: center;
+            align-items: center;
         }
         a {
             margin-left: 0;
