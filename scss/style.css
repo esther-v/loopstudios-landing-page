@@ -58,6 +58,8 @@ header {
 header nav a {
   text-decoration: none;
   color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
 }
 header nav a:hover {
   text-decoration: underline;
@@ -87,11 +89,17 @@ header nav li {
 }
 
 @media (max-width: 700px) {
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav a {
+    margin-left: 0;
   }
 
   .menu {
@@ -104,19 +112,6 @@ header nav li {
     gap: 50px;
     transform: translateX(100%);
     transition: 0.5s;
-  }
-
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-  nav a {
-    margin-left: 0;
   }
 
   .menu-open {
@@ -251,7 +246,6 @@ header nav li {
 @media screen and (max-width: 920px) {
   .galery button {
     width: 40%;
-    padding: 0;
     align-items: left;
   }
 }
