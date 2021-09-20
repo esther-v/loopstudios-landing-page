@@ -1,39 +1,73 @@
 //  SECTION ABOUT
 #about{
     
-    display: flex;
-     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+
+    img{
+        width: 700px;
+    }
 
     article {
-    
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        width: 40%;
         background-color: $white;
-        // margin-left: -300px;
-        // margin-top: 240px;
-        padding: 67px; 
+        padding: 50px; 
+        text-align: justify;
     }
 
     article h2{
         margin-bottom: 20px;
+        text-align: left;
     } 
-    img{
+    
+}
+//MEDIA QUERIES ABOUT
+@media screen and (max-width: 1370px){
+
+   #about article {
+        top: 50%;    
+    }
+
+}
+
+@media screen and (max-width: 1270px) {
+    #about {
+        position: initial;
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 450px;
+        }
+        article{
+            position: initial;
+            padding: 15px;
+        }
+    }
         
+}
+
+@media screen and (max-width: 940px) {
+    #about {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        article{
+            width: 350px;
+        }
     }
 }
-// MEDIA QUERIES ABOUT
-@media screen and (min-width: 1042px){
 
+@media screen and (max-width: 540px) {
     #about{
-        flex-direction: row;
+        img{
+            width: 280px;
+        }
+        article{
+            width: 280px;
+        }
     }
-   
-    article {
-        margin-left: -300px;
-        margin-top: 240px;
-         
-    }
-
 }
 
     

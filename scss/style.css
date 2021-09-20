@@ -134,7 +134,7 @@ header nav li {
     margin: 6px 0;
     width: 40px;
     height: 5px;
-    background: white;
+    background: black;
     border-radius: 54px;
     display: block;
   }
@@ -152,26 +152,60 @@ header nav li {
   }
 }
 #about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+}
+#about img {
+  width: 700px;
 }
 #about article {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  width: 40%;
   background-color: #ffffff;
-  padding: 67px;
+  padding: 50px;
+  text-align: justify;
 }
 #about article h2 {
   margin-bottom: 20px;
+  text-align: left;
 }
-@media screen and (min-width: 1042px) {
-  #about {
-    flex-direction: row;
-  }
 
-  article {
-    margin-left: -300px;
-    margin-top: 240px;
+@media screen and (max-width: 1370px) {
+  #about article {
+    top: 50%;
+  }
+}
+@media screen and (max-width: 1270px) {
+  #about {
+    position: initial;
+    display: flex;
+    justify-content: space-between;
+  }
+  #about img {
+    width: 450px;
+  }
+  #about article {
+    position: initial;
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 940px) {
+  #about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #about article {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #about img {
+    width: 280px;
+  }
+  #about article {
+    width: 280px;
   }
 }
 .button-title {
@@ -308,7 +342,7 @@ footer .footer-links {
 section {
   padding-left: 100px;
   padding-right: 100px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 800px) {
